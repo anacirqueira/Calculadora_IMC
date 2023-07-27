@@ -32,7 +32,7 @@ body {
 
   border-radius: .6rem;
   background: #FFF;
-  box-shadow: 0 .2rem .4rem 0 rgba(18, 17, 17, 0.702);
+  box-shadow: 0 .2rem .4rem 0 rgb(18, 17, 17);
 }
 
 h2 {
