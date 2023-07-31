@@ -12,6 +12,8 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
+
   background: rgb(185,107,225);
   background: linear-gradient(227deg, rgba(185,107,225,0.7828063110009629) 43%, rgba(42,210,196,1) 100%);
 }
@@ -32,12 +34,11 @@ body {
 
   border-radius: .6rem;
   background: #FFF;
-  box-shadow: 0 .2rem .4rem 0 rgb(18, 17, 17);
+  box-shadow: 0 .2rem .4rem 0 rgba(18, 17, 17, 0.549);
 }
 
 h2 {
   color: #4f357d;
-  font-family: 'Roboto', sans-serif;
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 4rem;

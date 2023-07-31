@@ -10,18 +10,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
   <div class="container">
     <main class="card">
-      <h2>Cálculo IMC</h2>
-  
+      
       <form>
-        <input type="number" name="Peso (kg)" id="Peso">
-        <input type="number" name="Altura (cm)" id="Altura">
+
+        <h2>IMC</h2>
+
+        <div class="input-wrapper">
+          <label for="weight">Peso (kg)</label>
+          <input id="weight" type="text" placeholder="60">
+        </div>
+
+        <div class="input-wrapper">
+          <label for="weight">Altura (cm)</label>
+          <input id="weight" type="text" placeholder="165">
+        </div>
+
+        <button type="submit">
+          Calcular IMC
+          <img src="./assets/arrow.svg" alt="Seta apontando para a direita">
+        </button>
+
       </form>
+
     </main>
   </div>
-
 </body>
   <script src="./script.js"></script>
 </html>
