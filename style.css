@@ -13,6 +13,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
 
   background: rgb(185,107,225);
   background: linear-gradient(227deg, rgba(185,107,225,0.7828063110009629) 43%, rgba(42,210,196,1) 100%);
@@ -138,4 +140,31 @@ form input::placeholder {
 
 .close:hover {
   transform: scale(1.4);
+}
+
+/* Mensagem de alerta */
+
+.alert-error.open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.alert-error {
+  background: #F03E3E;
+
+  color: #FFF;
+  font-weight: 700;
+
+  padding: .8rem 0;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: transform .5s;
 }
